@@ -1,0 +1,40 @@
+# Model checkpoints (too large for GitHub)
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Debug/temporary files
+debug_inference.py
+check_metrics.py
+save_metrics.py
+visualize_results.py
+run_all.py
+run_baseline.py
+run_improved.py
+final_report.py
